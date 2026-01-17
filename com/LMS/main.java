@@ -8,7 +8,7 @@ public class main {
         Scanner src = new Scanner(System.in);
         CourseManager Course = new CourseManager();
         create cr = new create();
-        boolean t = false;
+        boolean t = true;
         while (t) {
             // If no course is available, prompt to create one
             if (Course.getCourses().isEmpty()) {
